@@ -1,0 +1,154 @@
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #15151b;
+}
+
+* {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+.header-title {
+   color: #fff;
+   font-weight: 700;
+   font-size: 30px;
+   position: absolute;
+   left: 350px;
+   top: 2%;
+   cursor: pointer;
+}
+
+.title {
+   color: #fff;
+   font-weight: 800;
+   font-size: 55px;
+   position: relative;
+   top: 220px;
+   left: 350px;
+   max-width: 300px;
+   line-height: 55px;
+}
+
+.subtitle {
+   position: relative;
+   top: 230px;
+   left: 350px;
+   color: #a4a4a4;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   width: 430px;
+   line-height: 20px;
+   margin-top: 15px;
+   font-size: 17px;
+}
+
+.btn-s {
+   width: 250px;
+   height: 45px;
+   position: relative;
+   top: 250px;
+   left: 350px;
+   margin-top: 10px;
+   border-radius: 14px;
+   border: none;
+}
+
+.purchase-btn {
+   background-color: rgb(232, 135, 16);
+   color: #fff;
+   font-weight: 500;
+   font-size: 14px;
+   opacity: .9;
+   transition: .1s;
+   cursor: pointer;
+   letter-spacing: 1px;
+}
+
+.purchase-btn:hover {
+   opacity: .5;
+}
+
+.get-ip-btn {
+   margin-left: 10px;
+   box-sizing: border-box;
+   background: #15151b;
+   border: solid #acacac 2px;
+   opacity: .7;
+   color: #fff;
+   cursor: pointer;
+   letter-spacing: 1px;
+   font-weight: 500;
+   font-size: 14px;
+   transition: .2s;
+   text-decoration: none;
+}
+
+.get-ip-btn:hover {
+   background-color: #acacac;
+}
+
+.img-field {
+   background-color: #27272d;
+   position: absolute;
+   right: 0;
+   width: 770px;
+   height: 350px;
+   top: 200px;
+   border-radius: 40px 0 0 40px;
+}
+
+.i-1 {
+   margin-left: 26px;
+}
+
+.section-authors {
+   width: 100%;
+   height: 50vh;
+   margin-top: 320px;
+}
+
+footer {
+   box-sizing: border-box;
+   border-top: solid 2px #3a3a3a;
+   display: grid;
+   gap: 10px;
+   width: 65%;
+   height: 150px;
+   margin: 0 auto;
+   padding-top: 30px;
+}
+
+.left-info {}
+
+.footer-title {
+   font-weight: 700;
+   font-size: 23px;
+   color: #fff;
+}
+
+.footer-subtitle {
+   color: #6d6d6d;
+   font-weight: 700;
+}
+
+.right-info {}
+
+
+.foot-grid {
+   grid-template-columns: 1fr 1fr 1fr;
+   display: grid;
+   gap: 10px;
+}
+
+.f-item {
+   margin-left: 40px;
+   max-height: 200px;
+}
+
+.a-1:hover {
+   border-bottom: solid 2px #6d6d6d;
+}
